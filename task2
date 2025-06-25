@@ -1,0 +1,23 @@
+-- Create table
+CREATE TABLE Students (
+    StudentID INTEGER PRIMARY KEY,
+    Name TEXT NOT NULL,
+    Age INTEGER DEFAULT 18,
+    Email TEXT,
+    Marks INTEGER
+);
+
+-- Insert values (with and without NULL/defaults)
+INSERT INTO Students (StudentID, Name, Age, Email, Marks) VALUES (1, 'Alice', 20, 'alice@example.com', 85);
+INSERT INTO Students (StudentID, Name, Email, Marks) VALUES (2, 'Bob', 'bob@example.com', NULL); -- Age uses DEFAULT, Marks is NULL
+INSERT INTO Students (StudentID, Name, Age, Marks) VALUES (3, 'Charlie', 22, 90); -- Email is NULL
+
+-- Update records
+UPDATE Students SET Marks = 88 WHERE StudentID = 2;
+UPDATE Students SET Email = 'charlie@example.com' WHERE Name = 'Charlie';
+
+-- Delete a specific record
+DELETE FROM Students WHERE StudentID = 1;
+
+-- Select all to verify
+SELECT * FROM Students;
