@@ -1,0 +1,25 @@
+SQL Task 2 – DML Operations with NULL & DEFAULT Handling
+
+Objective
+Practice basic SQL operations such as inserting, updating, and deleting data while handling NULLs and DEFAULT values.
+
+ Files Included
+- task2_sql_dml.ipynb: Jupyter notebook with the complete SQL workflow using SQLite in Python.
+
+What’s Covered
+- Creating a sample table Students
+- Inserting data using NULL and DEFAULT
+- Updating records conditionally
+- Deleting specific records
+- Viewing data using pandas
+
+Tools Used
+- Python
+- SQLite (via sqlite3)
+- Jupyter Notebook
+- Pandas
+
+Sample SQL Operation
+```sql
+INSERT INTO Students (StudentID, Name, Email, Marks)
+VALUES (2,
