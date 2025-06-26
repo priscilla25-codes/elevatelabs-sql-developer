@@ -1,0 +1,14 @@
+Task 3: Writing Basic SELECT Queries
+
+ Objective
+To demonstrate the ability to extract and filter data using SQL SELECT statements.
+
+Tools Used
+- DB Browser for SQLite / MySQL Workbench
+
+ 💻 What I Did
+- Used SELECT * to retrieve all rows.
+- Filtered data using WHERE, AND, OR, LIKE, and BETWEEN.
+- Sorted data with ORDER BY.
+- Limited results with LIMIT.
+- Applied IN, =, DISTINCT, and aliasing for meaningful queries.
